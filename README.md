@@ -81,4 +81,8 @@ We welcome contributions to the React Button Sheet project. If you have ideas fo
 
 If you find this project interesting or useful, please consider giving it a ⭐️.
 
+<<<<<<< HEAD
 <h1 align="center">🚀 Happy Exploring! 🌌</h1>
+=======
+<h1 align="center">🚀 Happy Exploring! 🌌</h1>
+>>>>>>> e0a3b5544c2e2db77246291c1df864ce8866af8a
