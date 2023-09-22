@@ -1,11 +1,6 @@
 .App {
   text-align: center;
-  background-color: white;
 }
-.screen {
-  background-color: white; /* Change this line to set the background color to white */
-}
-
 
 .App-logo {
   height: 40vmin;
@@ -19,7 +14,7 @@
 }
 
 .App-header {
-  background-color: white;
+  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
