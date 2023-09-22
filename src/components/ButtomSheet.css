@@ -1,0 +1,71 @@
+/* BottomSheet.css */
+
+.screen {
+    display: flex;
+    flex-direction: column; /* Arrange children vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    background-color: rgb(15, 14, 14);
+  }
+  
+
+#new-basic-menu {
+    background-color: rgb(20, 18, 18);
+}
+
+/* BottomSheet.css */
+
+.new-sheet {
+    position: fixed;
+    background-color: rgb(162, 224, 221);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    transition: height 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  }
+  
+  .new-sheet-1 {
+    width: 100%;
+    height: 3px;
+    background-color: #f2eded;
+    cursor: pointer;
+  }
+  
+  .new-sheet-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1, h4, p {
+    margin: 10px;
+  }
+  
+  .new-sheet {
+    background-color: rgb(246, 244, 244);
+    animation-name: example;
+    animation-duration: 4s;
+    color: black;
+  }
+
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333; /* Adjust color as needed */
+  }
+  
+  @media screen and (max-width: 420px) {
+    h4, p {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+  
